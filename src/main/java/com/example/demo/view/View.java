@@ -4,7 +4,6 @@ package com.example.demo.view;
 import com.example.demo.service.DepartmentService;
 import com.example.demo.service.LectorService;
 
-
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -96,16 +95,16 @@ public class View {
             show();
     }
 
-public final void show() {
-    String input;
-    displayMenu();
-    System.out.println("\nChoose an option:\n");
-    do {
-        try {
-            input = scanner.next();
-            menu.get(input).print();
-        } catch (Exception ignored) {
-        }
-    } while (scanner.hasNext());
-}
+    public final void show() {
+        String input;
+        displayMenu();
+        System.out.println("\nChoose an option:\n");
+        do {
+            try {
+                input = scanner.next();
+                menu.get(input).print();
+            } catch (Exception ignored) {
+            }
+        } while (scanner.hasNext());
+    }
 }

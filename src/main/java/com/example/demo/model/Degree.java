@@ -17,10 +17,4 @@ public class Degree {
 
     @Column(name="name",nullable = false)
     private String name;
-
-//    public Lector(String name, String description, int price, String imageUrl, ProductType productType,
-//                   HairType hairType, ProductLine productLine) {
-//        this.name = name;
-//
-//    }
 }

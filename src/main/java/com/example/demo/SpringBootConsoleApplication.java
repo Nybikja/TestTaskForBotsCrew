@@ -17,9 +17,7 @@ public class SpringBootConsoleApplication implements CommandLineRunner {
     private LectorService lectorService;
 
     public static void main(String[] args) {
-
         SpringApplication.run(SpringBootConsoleApplication.class, args);
-
     }
 
     @Override
